@@ -1,0 +1,58 @@
+* {
+    font-family: Grandstander;
+}
+
+.material-symbols-outlined {
+    /* menu bar */
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+
+  .header {
+    margin: 0;
+    padding: 0;
+    height: 5.2rem;
+    display: flex;
+    background-image: url(photos/rilabg.gif);
+    border-radius: 10px;
+}
+
+.left-section {
+    align-items: center;
+    display: flex;
+    width: 50%;
+}
+
+.name {
+    margin-left: 1rem;
+}
+
+.right-section {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.bio-parent {
+    margin-top: 10px;
+    display: flex;
+    background-color: bisque;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.bio-box {
+    background-color: burlywood;
+    margin: 0 3rem 0 3rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.selfie {
+    border-radius: 50% 20% / 10% 40%;
+    margin: 1rem;
+}
