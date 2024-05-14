@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    font-family: Grandstander;
+}
+
+.header {
+    margin: 2% 12% 1% 12%;
+    padding: 0;
+    height: 5.2rem;
+    display: flex;
+    background-image: url(photos/rilabg.gif);
+    background-color: burlywood;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(255, 0, 0, 0.242), 0 6px 20px 0 rgba(43, 0, 255, 0.21);
+}
+
+.left-section {
+    align-items: center;
+    display: flex;
+    width: 50%;
+}
+
+.name {
+    margin-left: 4rem;
+    transition: .5s all ease-in-out;
+    color: rgb(100, 56, 0);
+}
+
+.name:hover {
+    transform: scale(1.1);
+    cursor: context-menu;
+}
+
+.right-section {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.navlinks {
+    margin: 0.5rem;
+    transition: .5s all ease-in-out;
+}
+.navlinks:hover {
+    font-size: larger;
+}
+
+.bio-parent {
+    margin: 1% 12% 4% 12%;
+    display: flex;
+    background-color: rgb(255, 233, 206);
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    min-height: 25rem;
+    box-shadow: 0 4px 8px 0 rgba(255, 0, 0, 0.267), 0 6px 20px 0 rgba(43, 0, 255, 0.224);
+}
+
+
+.bio-box {
+    background-color: burlywood;
+    margin: 2rem 3rem 2rem 3rem;
+    padding: 1rem;
+    border-radius: 10px;
+    min-height: 12rem;
+    max-height: 15rem;
+    max-width: 40rem;
+    transition: .5s all ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(255, 0, 0, 0.237), 0 6px 20px 0 rgba(43, 0, 255, 0.217);
+    text-align: center;
+}
+
+.bio-box:hover {
+        transform: scale(1.1);
+}
+
+.selfie {
+    border-radius: 50% 20% / 10% 40%;
+    margin: 2rem 3rem 2rem 3rem;
+    transition: .5s all ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(255, 0, 0, 0.247), 0 6px 20px 0 rgba(43, 0, 255, 0.226);
+}
+ .selfie:hover {
+    transform: scale(1.1);
+ }
+                                                    /*END HOME*/
+
+                                                    /*PORTFOLIO*/
+
+#portfolio-page {
+    overflow: scroll;
+
+}
+
+ .projects {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(249, 206, 150);
+    border-radius: 10px;
+ }
+
+ .project-numbers {
+    writing-mode: vertical-rl;
+    font-size: 30px;
+    margin: 1rem;
+ }
+
+ #second {
+    display: flex;
+    flex-direction: row-reverse;
+ }
+
+.portfolio-projects {
+    font-size: 40px;
+    margin: 1rem 0 1rem 0;
+    color: rgb(100, 56, 0);
+}
+
+.divider {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem 0 2rem 0;
+}
+.graph {
+    padding: 1rem;
+}
+
+ /*END PORTFOLIO*/
